@@ -1,3 +1,4 @@
-#mobile-menu {
-	display: none;
+/*Mobile*/
+ul .nav .dropdown {
+	visibility:hidden;
 }
