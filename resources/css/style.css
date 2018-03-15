@@ -3,6 +3,71 @@ html {
 	font-size: 16px;
 	}
 
+.sect-title {
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+
+/*nav*/
+.navbar-brand {
+	display: flex;
+}
+
+#kbimg {
+	height: 1.5rem;
+	width:auto;
+}
+
+/*jumbo*/
+.jumbotron, #hero {
+	background-color: white;
+}
+
+#jumboheading {
+	margin-top: 8rem;
+}
+
+/*portfolio*/
+#portfolio {
+	background-color: ;
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+	border-top: 1px solid hsla(218,34%,85%,1);
+}
+
+.row {
+	margin-top:3rem;
+	margin-bottom:3rem;
+}
+
+.col-sm-4 {
+	padding: 3rem 1rem;
+}
+
+/*skills*/
+#skills {
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+#cvbutton {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+/*about me*/
+#aboutme {
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+
+/*hire me*/
+#hireme {
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
 /*footer*/
 footer {
 	justify-content: flex-start;
@@ -14,8 +79,8 @@ footer p{
 
 footer ul {
 	margin-left: 50rem;
+	margin-right: 1.5rem;
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
-	margin-right: 5rem
 }
