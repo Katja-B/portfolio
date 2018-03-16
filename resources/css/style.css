@@ -66,21 +66,35 @@ html {
 #hireme {
 	padding-top: 30px;
 	padding-bottom: 60px;
+	
 }
 
 /*footer*/
 footer {
-	justify-content: flex-start;
-	padding: 4rem 1rem 2rem 1rem; 
+	padding-top: 4rem;
 	}
-footer p{
+
+#footercontainer {
 	display: flex;
+	justify-content: space-between;
+	position: relative;
+	padding-bottom: 1rem;
+	align-items: center;
 }
 
 footer ul {
-	margin-left: 50rem;
-	margin-right: 1.5rem;
 	display: flex;
-	align-items: flex-end;
 	justify-content: space-between;
+}
+
+#footercontainer ul li {
+	width: 4rem;
+	text-align:center;
+}
+
+
+/*websitedesign*/
+#rootsgr {
+	border-top: 1px solid hsla(218,34%,85%,1);
+	padding-top: 60px;
 }
