@@ -8,6 +8,9 @@ html {
 	margin-bottom: 3rem;
 }
 
+/*social FA icons*/
+
+
 /*nav*/
 .navbar-brand {
 	display: flex;
@@ -61,6 +64,9 @@ html {
 	padding-bottom: 60px;
 }
 
+.decimal {
+	list-style: decimal inside none;
+}
 
 /*hire me*/
 #hireme {
@@ -97,4 +103,8 @@ footer ul {
 #rootsgr {
 	border-top: 1px solid hsla(218,34%,85%,1);
 	padding-top: 60px;
+}
+
+.ulcircle {
+	list-style: circle inside none;
 }
