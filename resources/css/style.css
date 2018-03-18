@@ -21,9 +21,17 @@ html {
 	width:auto;
 }
 
+#kbheader {
+	font-family: 'Kavivanar', cursive;
+}
+
 /*jumbo*/
 .jumbotron, #hero {
 	background-color: white;
+}
+
+.jumbotron {
+	background-image: url(../images/hypnotize.png);
 }
 
 #jumboheading {
@@ -35,7 +43,6 @@ html {
 	background-color: ;
 	padding-top: 3rem;
 	padding-bottom: 4rem;
-	border-top: 1px solid hsla(218,34%,85%,1);
 }
 
 .row {
@@ -51,6 +58,7 @@ html {
 #skills {
 	padding-top: 30px;
 	padding-bottom: 60px;
+	background-image: url(../images/hypnotize-op30.png);
 }
 
 #cvbutton {
@@ -62,6 +70,7 @@ html {
 #aboutme {
 	padding-top: 30px;
 	padding-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .decimal {
@@ -72,8 +81,9 @@ html {
 #hireme {
 	padding-top: 30px;
 	padding-bottom: 60px;
-	
+	background-image: url(../images/hypnotize-op30.png);
 }
+
 
 /*footer*/
 footer {
@@ -107,4 +117,20 @@ footer ul {
 
 .ulcircle {
 	list-style: circle inside none;
+}
+
+/*banner ad samples*/
+.bannerimgs {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 994px) {
+	.bannerimgs {
+		flex-direction: column;
+		align-items: center;
+	}
+	.bannerimg {
+		margin-top: 2rem;
+	}
 }
